@@ -1,5 +1,5 @@
 ---
 
-- src: 'https://github.com/EPAM-team-8/ansible-role-service-one.git'
+- src: 'https://github.com/EPAM-team-8/ansible-role-mongodb.git'
   name: mongodb
   version: 'develop'
