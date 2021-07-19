@@ -1,5 +1,5 @@
 resource "aws_route53_record" "mongodb-record" {
-  zone_id = data.aws_route53_zone.mongodb-zone.zone_id
+  zone_id = data.aws_route53_zone.mongo-zone.zone_id
   name = "mongodb.epam.one"
   type = "A"
   ttl  = "300"
